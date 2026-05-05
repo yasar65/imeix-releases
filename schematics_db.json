@@ -903,5 +903,19 @@
     "pdfPairSource": "manual_pair_upload",
     "lastUploadedBy": "teknobey",
     "updatedAt": "2026-05-05T09:37:28.788Z"
+  },
+  {
+    "deviceId": "ASUS-X415JA-3-1",
+    "name": "ASUS X415JA Rev 3.1 BoardView PDF",
+    "modelSlug": "asus-x415ja-3-1",
+    "schematicPdf": "asus-x415ja-3-1\\schematic.pdf",
+    "boardviewPdf": "asus-x415ja-3-1\\boardview.pdf",
+    "schematicPdfPartialSha256": "d048843ff13e7c6ad8a62f4993e73782b4e48c0e36a31b19679de1848c3fc519",
+    "boardviewPdfPartialSha256": "003d09c3fcb9bebe195c3c321ed244cdae77ed4e7043db750c4b143eb7210556",
+    "pdfFingerprintPrefixBytes": 3145728,
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "teknobey",
+    "updatedAt": "2026-05-05T09:38:55.530Z"
   }
 ]
