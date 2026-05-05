@@ -1,0 +1,907 @@
+[
+  {
+    "deviceId": "note8",
+    "name": "Xiaomi Redmi Note 8",
+    "schematicPdf": "schematics/note8.pdf",
+    "boardviewPdf": "boardviews/note8.pdf",
+    "knowledgeFile": "schematic-kb/note8_knowledge.json",
+    "schematicIcRoles": "U0501: Ana işlemci (SoC / AP)\nU1701: Qualcomm PM6125 tabanlı ana PMIC/PMU (güç yönetimi: buck/LDO, sistem açma, şarj/rail dağıtımı). PM61xx etiketi genelde PMIC beslemesidir; GND_RF çoğunlukla kart üzerinde RF bölgesi/dijital toprak adayıdır ve tek başına “RF yongası” veya yalnızca şebeke/Wi-Fi/Bluetooth arızası anlamına gelmez.\nU2001: eMMC gömülü flash depolama (RST_N_* tipik olarak depolama çipinin donanım reset hattıdır; DSI/LCD/MIPI yoksa ekran reseti sayma).",
+    "aiPersona": {
+      "enabled": false
+    },
+    "boardviewPdfPartialSha256": "504667aed7c63b5e445ac348554b26a5265698939c9c692acab5941363b9b5f3",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "note9",
+    "name": "Samsung Galaxy Note 9 / Xiaomi Redmi 10X 4G",
+    "model_number": "J15_MB_V1",
+    "schematicPdf": "schematics/Note 91.pdf",
+    "boardviewPdf": "boardviews/Note 9.pdf",
+    "knowledgeFile": "schematic-kb/note9_knowledge.json",
+    "aliases": [
+      "Note 9",
+      "Redmi 10X",
+      "J15_MB",
+      "Redmi Note 10X"
+    ],
+    "aiPersona": {
+      "enabled": true,
+      "systemPrompt": "redmi10x_master",
+      "name": "Redmi 10X Schematic Master"
+    },
+    "boardviewPdfPartialSha256": "6488fe37ea3b8992d37779736990d41f0d499b760caea529655e54c6f1ffe1de",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "gen_1775242380112_6624",
+    "name": "APPLE iPhone iPhone SE 820 00282",
+    "schematicPdf": "DİĞER/APPLE/iPhone/Rev REV/iPhone_SE_820-00282_Schematics.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_6624_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_9528",
+    "name": "APPLE iPhone iPhone SE",
+    "schematicPdf": "DİĞER/APPLE/iPhone/Rev REV/iPhone_SE_Brd.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_9528_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_7037",
+    "name": "APPLE iPhone 8 iPhone 8 Intel",
+    "schematicPdf": "DİĞER/APPLE/iPhone 8/Rev REV/iPhone_8_Intel_Schematics_Scan.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_7037_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_7760",
+    "name": "APPLE iPhone 8 iPhone 8 Qualcomm",
+    "schematicPdf": "DİĞER/APPLE/iPhone 8/Rev REV/iPhone_8_Qualcomm_Brd+Schematics_Scan.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_7760_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_2847",
+    "name": "APPLE MacBook 820 03285",
+    "schematicPdf": "DİĞER/APPLE/MacBook/Rev REV/820-03285.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_2847_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_3354",
+    "name": "APPLE MacBook 820 03286",
+    "schematicPdf": "DİĞER/APPLE/MacBook/Rev REV/820-03286.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_3354_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_8654",
+    "name": "APPLE MacBook iPhone X 820 00863(Intel)",
+    "schematicPdf": "DİĞER/APPLE/MacBook/Rev REV/iPhone_X_820-00863(Intel)_Brd+Schematics.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_8654_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_6103",
+    "name": "APPLE MacBook iPhone X 820 00863(Qualcomm)",
+    "schematicPdf": "DİĞER/APPLE/MacBook/Rev REV/iPhone_X_820-00863(Qualcomm)_Brd+Schematics.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_6103_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380112_2238",
+    "name": "APPLE MacBook 820 02009 820 02009 A",
+    "schematicPdf": "KÜTÜPHANE/APPLE/MacBook/Rev REV/820-02009 820-02009-A PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380112_2238_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_4783",
+    "name": "APPLE MacBook 820 03285 A3113",
+    "schematicPdf": "KÜTÜPHANE/APPLE/MacBook/Rev REV/820-03285-A3113 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_4783_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7007",
+    "name": "APPLE MacBook 820 03286 A3114",
+    "schematicPdf": "KÜTÜPHANE/APPLE/MacBook/Rev REV/820-03286-A3114 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7007_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_3670",
+    "name": "APPLE MacBook 820 03286",
+    "schematicPdf": "KÜTÜPHANE/APPLE/MacBook/Rev REV/820-03286.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_3670_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_4924",
+    "name": "APPLE MacBook MACKBOOK 820 00239",
+    "schematicPdf": "KÜTÜPHANE/APPLE/MacBook/Rev REV/MACKBOOK 820-00239 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_4924_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_5825",
+    "name": "APPLE MacBook Pro A1989 820 00850 A",
+    "schematicPdf": "KÜTÜPHANE/APPLE/MacBook Pro/Rev REV/A1989_820-00850-A PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_5825_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7491",
+    "name": "APPLE BIOSTAR Gaming Z170T",
+    "schematicPdf": "KÜTÜPHANE/APPLE/Rev REV/BIOSTAR Gaming Z170T PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7491_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2964",
+    "name": "ASUS ASUS FX502VD 2.0",
+    "schematicPdf": "KÜTÜPHANE/ASUS/Rev REV/ASUS FX502VD REV2.0 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2964_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_549",
+    "name": "ASUS ASUS UX430UN UX430UNR UX430UAR r1.0",
+    "schematicPdf": "KÜTÜPHANE/ASUS/Rev REV/ASUS UX430UN UX430UNR UX430UAR r1.0 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_549_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_4576",
+    "name": "ASUS ASUS X540UV 2.0",
+    "schematicPdf": "KÜTÜPHANE/ASUS/Rev REV/ASUS X540UV Rev 2.0 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_4576_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1831",
+    "name": "DELL Latitude 5580 Dell Latitude 5580 Compal CDP80 LA E151P r0.2",
+    "schematicPdf": "KÜTÜPHANE/DELL/Latitude 5580/Rev REV/Dell Latitude 5580 Compal CDP80 LA-E151P r0.2 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1831_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_668",
+    "name": "DELL Precision 7520 CAP00 LA E311P (Dell Precision 15 7520)",
+    "schematicPdf": "KÜTÜPHANE/DELL/Precision 7520/Rev REV/CAP00 LA-E311P (Dell Precision 15 7520)  PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_668_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_8059",
+    "name": "DELL Dell Latitude E3320 MOONKNIGHT NVL TGL 19880 1",
+    "schematicPdf": "KÜTÜPHANE/DELL/Rev REV/Dell Latitude E3320 MOONKNIGHT NVL TGL 19880-1 Schematic Diagram.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_8059_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2346",
+    "name": "DELL DELL INSPIRON N5030 DJ2 MV MB 10240 (1)",
+    "schematicPdf": "KÜTÜPHANE/DELL/Rev REV/DELL_INSPIRON_N5030_DJ2_MV_MB_10240 (1).pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2346_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_5597",
+    "name": "DELL vinafix.com dj2 10240 sa mv uma RX00 0602 4 (1)",
+    "schematicPdf": "KÜTÜPHANE/DELL/Rev REV/vinafix.com_dj2_10240-sa mv_uma_RX00 0602_4 (1).pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_5597_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_3898",
+    "name": "HP HP 240 G8 Inventec HEDWIG01 6050A3158801 MB X01 6050A2740001",
+    "schematicPdf": "KÜTÜPHANE/HP/Rev REV/HP 240 G8 Inventec HEDWIG01-6050A3158801-MB X01 6050A2740001 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_3898_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_5258",
+    "name": "HP HP DA0XW3MBAG0 G",
+    "schematicPdf": "KÜTÜPHANE/HP/Rev REV/HP DA0XW3MBAG0 REV G PDF  .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_5258_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_5147",
+    "name": "HP HP G42 G62 CQ42 QUANTA AX1 INTEL DA0AX1MB6H1 1A",
+    "schematicPdf": "KÜTÜPHANE/HP/Rev REV/HP G42 G62 CQ42 - QUANTA AX1 INTEL - DA0AX1MB6H1- REV 1A PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_5147_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_4792",
+    "name": "HP HP Spectre Folio 13 ak1000 EPS30 LA F803P",
+    "schematicPdf": "KÜTÜPHANE/HP/Rev REV/HP Spectre Folio 13-ak1000 - EPS30 LA-F803P PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_4792_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7440",
+    "name": "HP HP Stream 11 d000 DA0Y0AMB6C0 Y0A PUNCH BTM 6L r1a 0721",
+    "schematicPdf": "KÜTÜPHANE/HP/Rev REV/HP Stream 11 d000 DA0Y0AMB6C0  Y0A PUNCH BTM 6L r1a 0721 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7440_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_3790",
+    "name": "6 71 N85H0 D02 N850HJ SM",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/6-71-N85H0-D02 N850HJ_SM PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_3790_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_4039",
+    "name": "Acer SFX14 42G LA L202P 1A 1.0",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/Acer SFX14-42G LA-L202P Rev1A 1.0 Schematic Diagram.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_4039_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_3646",
+    "name": "Alien(N8101) MB SCH",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/Alien(N8101)_MB_SCH.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_3646_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7155",
+    "name": "ASROCK H61M U3S3 1.02",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/ASROCK  H61M-U3S3_1.02 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7155_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_4946",
+    "name": "CA GH4FZ IO LS L201PR1A 0218",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/CA_GH4FZ_IO_LS-L201PR1A_0218.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_4946_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7152",
+    "name": "CLEVO NB60TJ1 SM 6 71 NB500 D02",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/CLEVO NB60TJ1 SM 6 71 NB500 D02 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7152_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2292",
+    "name": "COMPAL LA 7912P",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/COMPAL LA-7912P PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2292_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_5393",
+    "name": "COMPAL LA 7912P 0.2",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/COMPAL LA-7912P REV 0.2 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_5393_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_786",
+    "name": "COMPAL LA F601P",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/COMPAL LA-F601P PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_786_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_3069",
+    "name": "COMPAL LA L161P 0.1",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/COMPAL LA-L161P REV0.1 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_3069_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1216",
+    "name": "COMPAL LA L9431P 1.0 atics",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/COMPAL LA-L9431P REV 1.0 PDF atics.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1216_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7516",
+    "name": "COMPAL VBL20 LA 9241P.PDF",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/COMPAL VBL20  LA-9241P PDF.PDF",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7516_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7206",
+    "name": "DAL30 LA 2154",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/DAL30 LA-2154 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7206_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2689",
+    "name": "Dolly WC DL4FA PPR R20",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/Dolly_WC DL4FA_PPR_R20 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2689_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7095",
+    "name": "EM IDL819 S V1.0 BOTTOM",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/EM_IDL819_S_V1.0-BOTTOM.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7095_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_3233",
+    "name": "EM IDL819 S V1.0 TOP",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/EM_IDL819_S_V1.0-TOP.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_3233_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1676",
+    "name": "EM IDL819 S V1.0",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/EM_IDL819_S_V1.0.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1676_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_5025",
+    "name": "FX490 NM B861 ( 1.0)",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/FX490 NM-B861 (REV 1.0) PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_5025_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_8367",
+    "name": "GIGABYTE GV N108TAORUS 11GD 1.02",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/GIGABYTE GV-N108TAORUS-11GD Rev 1.02 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_8367_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1833",
+    "name": "GM5BG3E MB",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/GM5BG3E MB PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1833_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1886",
+    "name": "IO",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/IO.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1886_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_8397",
+    "name": "LCFC NM A403 1.0",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/LCFC NM A403 REV1.0 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_8397_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_8210",
+    "name": "LCFC KS485 NM F331 1.0",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/LCFC_KS485 NM-F331 REV 1.0 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_8210_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2100",
+    "name": "LENOVO NM C661",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/LENOVO NM-C661 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2100_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7549",
+    "name": "LENOVO Thinkbook 14p gen3 LCFC NM E561",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/LENOVO Thinkbook 14p gen3 LCFC NM-E561 PDF  .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7549_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_3210",
+    "name": "MS 7765 1.0",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/MS 7765 REV1.0 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_3210_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2624",
+    "name": "MSI MS A9281 1.1",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/MSI MS-A9281 REV 1.1 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2624_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1415",
+    "name": "MVP SONY Vaio VJP132C11N Quanta MS8 DA0MS8MBAD0",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/MVP SONY Vaio VJP132C11N Quanta MS8 DA0MS8MBAD0 PDF  .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1415_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_9704",
+    "name": "Odin MX 14N 16 NV Odin ADL P 203128 1 X02 4DY5V$LA",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/Odin MX 14N 16 NV Odin ADL-P 203128-1 REV  X02   4DY5V$LA PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_9704_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_8686",
+    "name": "PEGATRON DL4FA ( 2.0)",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/PEGATRON DL4FA (REV 2.0) PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_8686_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2892",
+    "name": "PRIME B660M A AC D4",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/PRIME B660M-A AC D4.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2892_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_6648",
+    "name": "PWR",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/PWR.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_6648_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_9902",
+    "name": "Quanta 0PAK Schematic Da0pakmb6f0",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/Quanta 0PAK Schematic Da0pakmb6f0 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_9902_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2805",
+    "name": "S133AR200 BOTTOM",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/S133AR200-BOTTOM.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2805_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_9965",
+    "name": "S133AR200 TOP",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/S133AR200-TOP.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_9965_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1181",
+    "name": "S133AR200",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/S133AR200.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1181_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_9562",
+    "name": "S133AR400",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/S133AR400 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_9562_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_331",
+    "name": "SONY Vaio AK1 QUANTA",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/SONY Vaio AK1_QUANTA PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_331_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1831",
+    "name": "WISTRON 6050A3087502 MB A03",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/WISTRON 6050A3087502-MB-A03 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1831_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2039",
+    "name": "Wistron DJ2 Montevina UMA, 10240 SA (X00)",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/Wistron DJ2 Montevina UMA, 10240-SA (X00).pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2039_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2695",
+    "name": "WISTRON L14 L15 AMD 213039 1",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/WISTRON L14 L15 AMD 213039-1 PDF .pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2695_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_2242",
+    "name": "Wistron LAR 2 CZ 203088 3",
+    "schematicPdf": "KÜTÜPHANE/Rev REV/Wistron LAR-2 CZ 203088-3 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_2242_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_7584",
+    "name": "SAMSUNG SAMSUNG 300E4A BA41 016661 Petronas",
+    "schematicPdf": "KÜTÜPHANE/SAMSUNG/Rev REV/SAMSUNG  300E4A BA41 016661 Petronas PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_7584_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_1148",
+    "name": "SAMSUNG Samsung Lampard15 HSW BA41 02342A",
+    "schematicPdf": "KÜTÜPHANE/SAMSUNG/Rev REV/Samsung Lampard15-HSW BA41-02342A.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_1148_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "gen_1775242380113_4315",
+    "name": "XİAOMİ Xiaomi Mi Notebook Pro 15 A34S A35S 203031 1",
+    "schematicPdf": "KÜTÜPHANE/XİAOMİ/Rev REV/Xiaomi_Mi_Notebook_Pro_15_A34S_A35S  203031-1 PDF.pdf",
+    "boardviewPdf": "",
+    "knowledgeFile": "schematic-kb/gen_1775242380113_4315_knowledge.json",
+    "aiPersona": {
+      "enabled": false
+    }
+  },
+  {
+    "deviceId": "redmi-note-8-lldm516-2",
+    "name": "Redmi_Note_8_(LLDM516)_Schematic_Diagram",
+    "modelSlug": "redmi-note-8-lldm516-2",
+    "schematicPdf": "models/redmi-note-8-lldm516-2/schematic/Redmi_Note_8_(LLDM516)_Schematic_Diagram.pdf",
+    "boardviewPdf": "models/redmi-note-8-lldm516-2/boardview/Redmi_Note_8_(LLDM516)_PCB_Layout.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T11:40:09.744Z",
+    "schematicPdfPartialSha256": "52839a061cfe10b323d71b455ae1d1fc37d4f3969f3d8ed6189d629b75e9cbc9",
+    "boardviewPdfPartialSha256": "504667aed7c63b5e445ac348554b26a5265698939c9c692acab5941363b9b5f3",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11-35100k2moa-physical-location-map-en",
+    "name": "Mi_11-35100K2MOA_Physical_location_map_en",
+    "modelSlug": "mi-11-35100k2moa-physical-location-map-en",
+    "schematicPdf": "models/mi-11-35100k2moa-physical-location-map-en/schematic/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "boardviewPdf": "models/mi-11-35100k2moa-physical-location-map-en/boardview/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T11:46:13.433Z",
+    "schematicPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "boardviewPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11-35100k2moa-physical-location-map-en-2",
+    "name": "Mi_11-35100K2MOA_Physical_location_map_en",
+    "modelSlug": "mi-11-35100k2moa-physical-location-map-en",
+    "schematicPdf": "models/mi-11-35100k2moa-physical-location-map-en/schematic/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "boardviewPdf": "models/mi-11-35100k2moa-physical-location-map-en/boardview/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T11:48:40.337Z",
+    "schematicPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "boardviewPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11-35100k2moa-physical-location-map-en-3",
+    "name": "Mi_11-35100K2MOA_Physical_location_map_en",
+    "modelSlug": "mi-11-35100k2moa-physical-location-map-en",
+    "schematicPdf": "models/mi-11-35100k2moa-physical-location-map-en/schematic/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "boardviewPdf": "models/mi-11-35100k2moa-physical-location-map-en/boardview/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T11:48:57.506Z",
+    "schematicPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "boardviewPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11-35100k2moa-physical-location-map-en-4",
+    "name": "Mi_11-35100K2MOA_Physical_location_map_en",
+    "modelSlug": "mi-11-35100k2moa-physical-location-map-en",
+    "schematicPdf": "models/mi-11-35100k2moa-physical-location-map-en/schematic/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "boardviewPdf": "models/mi-11-35100k2moa-physical-location-map-en/boardview/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T11:49:23.767Z",
+    "schematicPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "boardviewPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11-location-map",
+    "name": "MI_11_Location_map",
+    "modelSlug": "mi-11-location-map",
+    "schematicPdf": "models/mi-11-location-map/schematic/MI_11_Schematic.pdf",
+    "boardviewPdf": "models/mi-11-location-map/boardview/MI_11_Location_map.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T11:51:19.904Z",
+    "schematicPdfPartialSha256": "f34492aba806c17bfe41a5b26c84671f0ad55daee0f234768044c45f3d7278df",
+    "boardviewPdfPartialSha256": "14cb89be0158bd6f8b250eef4aa3daf30ab4f8927a418f5c739d5c8cdfcbe1c2",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11",
+    "name": "MI_11_Schematic",
+    "modelSlug": "mi-11",
+    "schematicIcRoles": "U0501: Ana işlemci (SoC / AP)\nU2001: eMMC depolama",
+    "schematicPdf": "models/mi-11/schematic/MI_11_Schematic.pdf",
+    "boardviewPdf": "models/mi-11/boardview/MI_11_Location_map.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T11:52:44.697Z",
+    "schematicPdfPartialSha256": "f34492aba806c17bfe41a5b26c84671f0ad55daee0f234768044c45f3d7278df",
+    "boardviewPdfPartialSha256": "14cb89be0158bd6f8b250eef4aa3daf30ab4f8927a418f5c739d5c8cdfcbe1c2",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11-2",
+    "name": "MI 11 Schematic",
+    "modelSlug": "mi-11",
+    "schematicPdf": "models/mi-11/schematic/MI_11_Schematic.pdf",
+    "boardviewPdf": "models/mi-11/boardview/Mi_11-35100K2MOA_Physical_location_map_en.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T12:03:27.145Z",
+    "schematicPdfPartialSha256": "f34492aba806c17bfe41a5b26c84671f0ad55daee0f234768044c45f3d7278df",
+    "boardviewPdfPartialSha256": "54b214e32ee1e74cd3aab02146e27ff0615b558dab603b936eaa1194da09119c",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "mi-11-location-map-2",
+    "name": "MI 11 Location map",
+    "modelSlug": "mi-11-location-map",
+    "schematicPdf": "models/mi-11-location-map/schematic/MI_11_Schematic.pdf",
+    "boardviewPdf": "models/mi-11-location-map/boardview/MI_11_Location_map.pdf",
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "IMEIX",
+    "updatedAt": "2026-04-19T12:03:45.851Z",
+    "schematicPdfPartialSha256": "f34492aba806c17bfe41a5b26c84671f0ad55daee0f234768044c45f3d7278df",
+    "boardviewPdfPartialSha256": "14cb89be0158bd6f8b250eef4aa3daf30ab4f8927a418f5c739d5c8cdfcbe1c2",
+    "pdfFingerprintPrefixBytes": 3145728
+  },
+  {
+    "deviceId": "695234780-ASUS-X415MA",
+    "name": "695234780-Asus-X415MA-Schematic",
+    "modelSlug": "695234780-asus-x415ma",
+    "schematicPdf": "695234780-asus-x415ma\\schematic.pdf",
+    "boardviewPdf": "695234780-asus-x415ma\\boardview.pdf",
+    "schematicPdfPartialSha256": "003d09c3fcb9bebe195c3c321ed244cdae77ed4e7043db750c4b143eb7210556",
+    "boardviewPdfPartialSha256": "d048843ff13e7c6ad8a62f4993e73782b4e48c0e36a31b19679de1848c3fc519",
+    "pdfFingerprintPrefixBytes": 3145728,
+    "uploadStatus": "completed",
+    "pdfPairSource": "manual_pair_upload",
+    "lastUploadedBy": "teknobey",
+    "updatedAt": "2026-05-05T09:37:28.788Z"
+  }
+]
